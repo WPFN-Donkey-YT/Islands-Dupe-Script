@@ -1,0 +1,5 @@
+for i,v in pairs(game.Players.LocalPlayer.Backpack:GetDescendants()) do
+if v.Name == "Amount" then
+v.Value = v.Value*2
+end
+end
